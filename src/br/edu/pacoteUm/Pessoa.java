@@ -19,6 +19,10 @@ public class Pessoa<T> {
 		return info;
 	};
 	
+	public T getInfo(){
+		return info;
+	}
+	
 	@Override
 	public String toString(){
 		return "Esta classe está manipulando o tipo: "+info.getClass().getSimpleName() ;
