@@ -26,6 +26,15 @@ public class Principal {
 		pInteger.setInfo(100);
 		System.out.println("Valor digitado: "+pInteger.getInformacaoPessoa());
 		System.out.println(pInteger);
+	
+		/**
+		 * A mesma classe assumindo o tipo double
+		 * Generics só aceitam classes, nunca tipos primitivos
+		 */
+		Pessoa<Double> pDouble = new Pessoa<Double>(); 
+		pDouble.setInfo(100.00);
+		System.out.println("Valor digitado: "+pDouble.getInformacaoPessoa());
+		System.out.println(pDouble);		
 		
 	}
 
