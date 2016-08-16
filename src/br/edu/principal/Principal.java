@@ -33,7 +33,7 @@ public class Principal {
 		 */
 		Pessoa<Double> pDouble = new Pessoa<Double>(); 
 		pDouble.setInfo(100.00);
-		System.out.println("Valor digitado: "+pDouble.getInformacaoPessoa());
+		System.out.println("Valor digitado: "+pDouble.getInfo());
 		System.out.println(pDouble);		
 		
 	}
